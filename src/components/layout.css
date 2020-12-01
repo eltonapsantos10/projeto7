@@ -18,6 +18,7 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+
 }
 article,
 aside,
@@ -595,3 +596,19 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+body {
+background-color: gray;
+
+}
+
+.corpo {
+display:flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+main {
+margin-left: 20px;
+}
+
